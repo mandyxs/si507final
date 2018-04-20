@@ -11,14 +11,14 @@
 
 ### final_data.py
 This is the file that handles all the crawling and inserting data into database
-	* class Database: this class includes methods needed to init the data base as well as inserting html data into database
-	* functions start with 'get': these functions crawls html pages and extracts useful data from html content
+* class Database: this class includes methods needed to init the data base as well as inserting html data into database
+* functions start with 'get': these functions crawls html pages and extracts useful data from html content
 
 ### final_main.py
 This is the file that you would run to interact with the program. This file calls all the functions in final_data.py. It also manages all the command line interactions as well as plotly functions. 
-	* class databse_select: this is the class that has all the methods needed to analyze and select data from the database to implemenet the plotly functions
-	* functions plot_rank & plot_goal & team_chart & plot_player: these are the functions that generate plotly graphs
-	* function interactive_prompt: this is the function that implements command line interaction
+* class databse_select: this is the class that has all the methods needed to analyze and select data from the database to implemenet the plotly functions
+* functions plot_rank & plot_goal & team_chart & plot_player: these are the functions that generate plotly graphs
+* function interactive_prompt: this is the function that implements command line interaction
 
 ### final_unittest.py
 Unittest file
