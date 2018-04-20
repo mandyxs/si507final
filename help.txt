@@ -1,0 +1,82 @@
+
+Commands available:
+
+rank
+
+	What it does: Shows a bar chart of team ranking with 
+	each team’s score in a specific league
+
+	Param:
+		* <country> (England / Spain / Germany / Italy / France)
+		Description: Specifies the country of the league that 
+		you want to see
+		Default: no default, please input 1 and only 1 country name
+
+	Example: rank Germany
+-------------------------------
+
+goal
+
+	What it does: Show a bubble chart of home/away goal 
+	distribution of all the games in current season in a 
+	specific league
+
+	Param:
+		* <country> (England / Spain / Germany / Italy / France)
+		Description: Specifies the country of the league 
+		that you want to see
+		Default: no default, please input 1 and only 1 country name
+
+	Example: goal Germany
+
+-------------------------------
+
+list
+
+	What it does: returns a list of team names in a league
+
+	Param:
+		* <country> (England / Spain / Germany / Italy / France)
+		Description: Specifies the country of the league that 
+		you want to see
+		Default: no default, please input 1 and only 1 country name
+
+	Example: list Germany
+
+	---------------------------
+
+	Sub-command:
+
+		chart
+
+			Available only when there is an active list 
+			result of teams
+			What it does: Shows a pie chart of win/draw/loss 
+			rate of a specific team
+
+			Param:
+			* <result_number> (the result number of the 
+			team returned to your 'list' command)
+
+			Example: chart 1
+
+-------------------------------
+
+players
+
+	What it does: Shows a dot plot of top 3 players' goal number 
+	distruibution of each team in a league
+
+	Param:
+		* <country> (England / Spain / Germany / Italy / France)
+		Description: Specifies the country of the league that 
+		you want to see
+		Default: no default, please input 1 and only 1 country name
+
+	Example: players Germany
+
+-------------------------------
+
+exit
+ 
+ 	What it does: exit the program
