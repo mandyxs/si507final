@@ -1,5 +1,7 @@
 # Mandy Shen's Final Project
 
+This program crawls soccer data from html pages and displays analysis on plotly graphs
+
 ## Data Source: http://www.soccerstats.com/
 * The program crawls 100+ pages from this source, it will take a while to crawl
 * If you crawl all of them at the same time the website may go down (this happened when I crawled the pages, not sure if I was the reason that the site was down)
